@@ -5,3 +5,13 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+
+10.times{
+	a = Dog.create(
+		name:"one", 
+		age: "1", 
+		breed: "one", 
+		weight: "1", 
+		height: "1")
+}
